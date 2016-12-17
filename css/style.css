@@ -1,0 +1,32 @@
+@import "header.css";
+@import "content.css";
+@import "contentleft.css";
+@import "contentcenter.css";
+@import "contentright.css";
+@import "footer.css";
+
+/*@import "reset.css";*/
+@import "bootstrap.css";
+@import "bootstrap-responsive.css";
+
+
+/*@import "jquery.ui.all.css";*/
+
+body
+{
+    background-color: #808080;
+    font-size: 12px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    outline: none;
+}
+.wrap
+{
+    text-align: left;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}

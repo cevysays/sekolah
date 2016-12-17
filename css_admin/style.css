@@ -1,0 +1,40 @@
+@import "panellogin.css";
+@import "reset.css";
+
+@import "bootstrap-responsive.css";
+@import "bootstrap.css";
+
+@import "/css/jquery.ui.all.css";
+@import "/css/jquery.ui.base.css";
+@import "/css/jquery.ui.theme.css";
+
+body
+{
+    background: -webkit-linear-gradient(top,white,#808080);
+    background: -moz-linear-gradient(top,white,#808080);
+    background: -ms-linear-gradient(top,grey,white);
+    background: -o-linear-gradient(top,grey,white);
+}
+.wrap
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    height: 550px
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+    outline: none;
+}
+
+.minus
+{
+    cursor: pointer;
+}
+.edit
+{
+    cursor: pointer;
+}
